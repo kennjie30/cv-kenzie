@@ -1,0 +1,48 @@
+body {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  color: #0d0e0c;
+}
+
+.hero-section {
+  height: 100vh;
+  background:
+    linear-gradient(rgba(18, 95, 196, 0.7), rgba(29, 106, 166, 0.7)),
+    url("https://images.unsplash.com");
+  background-size: cover;
+  background-position: center;
+}
+
+.profile-img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.profile-img:hover {
+  transform: scale(1.1);
+}
+
+.skill-card {
+  transition: all 0.3s ease;
+  border-bottom: 4px solid transparent;
+}
+
+.skill-card:hover {
+  transform: translateY(-10px);
+  border-bottom: 4px solid #0d6efd;
+}
+
+.progress {
+  height: 10px;
+  margin-top: 15px;
+}
+
+section {
+  padding: 80px 0;
+}
+
+.navbar-brand {
+  letter-spacing: 2px;
+}
